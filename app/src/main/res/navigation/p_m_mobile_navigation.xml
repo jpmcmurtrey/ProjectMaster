@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/p_m_mobile_navigation"
+    app:startDestination="@id/PMHome">
+
+    <fragment
+        android:id="@+id/PMHome"
+        android:name="com.example.projectmaster.ui_fragments.home.PMHome"
+        android:label="@string/title_home"
+        tools:layout="@layout/p_m_home_fragment" />
+    <fragment
+        android:id="@+id/PMProjectCalculator"
+        android:name="com.example.projectmaster.ui_fragments.priority_calculator.PMProjectCalculator"
+        android:label="@string/title_project_calculator"
+        tools:layout="@layout/p_m_project_calculator_fragment" />
+    <fragment
+        android:id="@+id/PMProjectList"
+        android:label="@string/title_project_list"
+        tools:layout="@layout/p_m_project_list_fragment" />
+    <fragment
+        android:id="@+id/PMSettings"
+        android:name="com.example.projectmaster.ui_fragments.settings.PMSettings"
+        android:label="@string/title_settings"
+        tools:layout="@layout/p_m_settings_fragment" />
+</navigation>

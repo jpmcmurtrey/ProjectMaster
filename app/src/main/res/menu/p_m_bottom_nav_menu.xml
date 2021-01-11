@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_p_m_home"
+        android:icon="@drawable/ic_p_m_home_black_24dp"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_p_m_project_list"
+        android:icon="@drawable/ic_p_m_project_list_24dp"
+        android:title="@string/title_project_list" />
+
+    <item
+        android:id="@+id/navigation_p_m_project_calculator"
+        android:icon="@drawable/ic_p_m_project_calculator_24dp"
+        android:title="@string/title_project_calculator" />
+
+    <item
+        android:id="@+id/navigation_p_m_settings"
+        android:icon="@drawable/ic_p_m_settings_24dp"
+        android:title="@string/title_settings" />
+</menu>

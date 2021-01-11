@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ProjectMaster</string>
+    <string name="title_home">Home</string>
+    <string name="title_project_list">Project List</string>
+    <string name="title_project_calculator">Project Calculator</string>
+    <string name="title_settings">Settings</string>
+</resources>
